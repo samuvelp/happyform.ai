@@ -1,0 +1,16 @@
+# Ignore Python artifacts (backend)
+backend/__pycache__/
+backend/*.pyc
+backend/env/
+backend/venv/
+backend/.env
+
+# Ignore Node.js artifacts (frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+
+# System files
+.DS_Store
+*.log
